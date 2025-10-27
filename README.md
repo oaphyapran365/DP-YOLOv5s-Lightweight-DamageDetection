@@ -11,7 +11,7 @@ The system classifies buildings into four severity levels — **no damage**, **l
 ## 🚀 Key Features
 
 * **🔐 Differentially Private Fine-tuning**
-  YOLOv5s is trained with [Opacus](https://opacus.ai/) to safeguard sensitive visual data using gradient clipping + Gaussian noise.
+  YOLOv5s is trained with [Opacus](https://opacus.ai/) for differential privacy, combining gradient clipping and calibrated noise injection to protect sensitive visual data.
 
 * **⚡ Lightweight Model Compression**
   Post-training model optimization via parameter pruning for smaller, faster deployment.
@@ -48,7 +48,6 @@ Model is:
 ```text
 disaster-damage-assessment/
 ├─ README.md
-├─ LICENSE
 ├─ requirements.txt
 ├─ .gitignore
 ├─ src/
@@ -63,11 +62,10 @@ disaster-damage-assessment/
 │  └─ yolov5s.yaml
 ├─ data/
 │  └─ data.yaml.example
-├─ weights/
-│  └─ README.md
 ├─ sample_media/
    ├─ demo_output.gif
-   └─ demo_video_frame.jpg
+   ├─ demo_output.jpg
+   └─ demo_video_frame.mp4
 
 ```
 
@@ -127,30 +125,6 @@ python src/dp_train.py \
 
 ---
 
-## 🎯 Inference and Visualization
-
-### 🖼️ Detect Damage on Images
-
-```bash
-python src/detect_image.py \
-  --weights weights/dp_finetune_clean_yolov5fmt.pt \
-  --source sample_media/demo_input.jpg \
-  --out runs/inference/
-```
-
-### 🎬 Detect Damage in Videos
-
-```bash
-python src/detect_video.py \
-  --weights weights/dp_finetune_clean_yolov5fmt.pt \
-  --video sample_media/demo_video.mp4 \
-  --out runs/inference/video_out.mp4
-```
-
-> **Color Legend:** 🩵 No Damage  |  🔵 Light Damage  |  🟠 Moderate Damage  |  🔴 Severe Damage
-
----
-
 ## 🔧 Model Optimization and Evaluation
 
 ### 🔹 Model Compression
@@ -172,14 +146,27 @@ python src/evaluate_model.py \
 
 ---
 
-## 📊 Expected Outputs
+## 🎯 Inference and Visualization
 
-| Metric              | Description                                 |
-| :------------------ | :------------------------------------------ |
-| **ε (epsilon)**     | Privacy budget estimate from DP fine-tuning |
-| **Sparsity (%)**    | Percentage of zeroed weights after pruning  |
-| **Model Size (MB)** | File size before vs after compression       |
-| **Latency (ms)**    | Average inference time per frame            |
+### 🖼️ Detect Damage on Images
+
+```bash
+python src/detect_image.py \
+  --weights weights/model_weights_yolov5fmt.pt \
+  --source sample_media/demo_input.jpg \
+  --out runs/inference/
+```
+
+### 🎬 Detect Damage in Videos
+
+```bash
+python src/detect_video.py \
+  --weights weights/model_weights_yolov5fmt.pt \
+  --video sample_media/demo_video.mp4 \
+  --out runs/inference/video_out.mp4
+```
+
+> **Color Legend:** 🩵 No Damage  |  🔵 Light Damage  |  🟠 Moderate Damage  |  🔴 Severe Damage
 
 ---
 
@@ -226,8 +213,9 @@ See [LICENSE](LICENSE) for details.
 
 ```bibtex
 @misc{disasterdp2025,
-  author = {Abdullahil-Oaphy, Md and collaborators},
-  title  = {Privacy-Preserving Building Damage Assessment using Differentially Private YOLOv5},
+  author = {Abdullahil Oaphy, Honghui Xu and collaborators},
+  title  = {Lightweight and Privacy-Enhanced Detection Model on Aerial Imagery for
+Post-Disaster Building Damage Reconnaissance},
   year   = {2025},
   note   = {GitHub Repository},
   url    = {https://github.com/oaphyapran365/DP-YOLOv5s-Lightweight-DamageDetection.git}
