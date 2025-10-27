@@ -61,7 +61,7 @@ disaster-damage-assessment/
 ├─ models/
 │  └─ yolov5s.yaml
 ├─ data/
-│  └─ data.yaml.example
+│  └─ data.yaml
 ├─ sample_media/
    ├─ demo_output.gif
    ├─ demo_output.jpg
