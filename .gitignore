@@ -39,7 +39,6 @@ results/
 
 
 # Images (we’ll allow a couple specific demo files below)
-*.jpg
 *.jpeg
 *.png
 *.tif
@@ -52,7 +51,6 @@ results/
 # Datasets / private data
 data/
 dataset-OC/
-*.yaml
 !data.yaml.example
 
 # OS / editor noise
