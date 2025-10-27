@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Prepare Dataset
 
-Copy and edit `data/data.yaml.example` → `data/data.yaml`, then set dataset paths:
+Copy and edit `data/data.yaml`, with proper dataset paths:
 
 ```yaml
 train: /path/to/train/images
