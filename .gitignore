@@ -51,7 +51,7 @@ results/
 # Datasets / private data
 data/
 dataset-OC/
-!data.yaml.example
+
 
 # OS / editor noise
 .DS_Store
