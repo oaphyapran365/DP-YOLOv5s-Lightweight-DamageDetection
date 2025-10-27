@@ -1,0 +1,28 @@
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# core YOLOv5 runtime dependencies
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+PyYAML>=6.0
+tqdm>=4.66.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+scipy>=1.11.0
+requests>=2.31.0
+psutil>=5.9.0
+thop>=0.1.1
+
+# differential privacy training
+opacus>=1.4.0
+
+# structured model slimming / analysis
+torch-pruning>=1.6.0
+
+# to ensure YOLOv5-style training scripts work without external logging
+wandb==0.16.6
+
+# Jupyter-style execution support (useful if users want to reproduce in notebooks)
+ipython>=8.0.0
