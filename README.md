@@ -1,7 +1,7 @@
 
 ---
 
-# 🏗️ Disaster Damage Assessment with Privacy-Preserving YOLOv5
+# Disaster Damage Assessment with Privacy-Preserving YOLOv5
 
 This repository presents a **Differential Privacy (DP)**–enhanced YOLOv5 pipeline for **automated building-damage detection** from post-disaster imagery.
 The system classifies buildings into four severity levels — **no damage**, **light damage**, **moderate damage**, and **severe damage** — while ensuring **privacy protection**, **lightweight inference**, and **visual interpretability** for emergency-response applications.
@@ -36,9 +36,9 @@ Model is:
 - constrained to show only semantic severity labels (no raw confidences),
 - and filters out low-confidence false positives (<50%).
 
-| Example frame (still image) | Short detection clip (autoplay) |
+| Short detection clip - 1(autoplay) | Short detection clip -2 (autoplay) |
 |-----------------------------|---------------------------------|
-| <img src="sample_media/output-9.jpg" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/> | <img src="sample_media/outx_clip.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/>|
+| <img src="sample_media//outx_clip.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/> | <img src="sample_media/Unst2_clip.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/>|
 
 
 ---
@@ -236,13 +236,5 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🛠️ Maintainer
-
-**Md Abdullahil-Oaphy**
-M.S. Information Technology, Kennesaw State University
-📧 [your professional email here]
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)  •  [GitHub](https://github.com/your-username)
-
----
 
 
