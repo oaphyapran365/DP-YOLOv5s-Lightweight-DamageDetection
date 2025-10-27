@@ -38,7 +38,7 @@ Model is:
 
 | Example frame (still image) | Short detection clip (autoplay) |
 |-----------------------------|---------------------------------|
-| <img src="sample_media/output-9.jpg" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/> | <video src="sample_media/outx_Unstrctd-clip.mp4" width="400" autoplay loop muted playsinline style="border:1px solid #444; border-radius:6px;"></video> |
+| <img src="sample_media/output-9.jpg" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/> | <img src="sample_media/outx_clip.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/>|
 
 
 ---
@@ -78,8 +78,8 @@ disaster-damage-assessment/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/disaster-damage-assessment.git
-cd disaster-damage-assessment
+git clone https://github.com/oaphyapran365/DP-YOLOv5s-Lightweight-DamageDetection.git
+cd DP-YOLOv5s-Lightweight-DamageDetection
 ```
 
 ### 2️⃣ Install Dependencies
@@ -206,13 +206,6 @@ Ensure all training data comply with relevant data-protection regulations (e.g.,
 
 ---
 
-## 📘 Documentation
-
-* [`docs/PRIVACY_AND_DP.md`](docs/PRIVACY_AND_DP.md) – privacy mechanisms
-* [`docs/MODEL_PRUNING.md`](docs/MODEL_PRUNING.md) – compression strategy
-* [`docs/DEPLOYMENT_NOTES.md`](docs/DEPLOYMENT_NOTES.md) – deployment guidelines
-
----
 
 ## 📜 License
 
@@ -237,7 +230,7 @@ See [LICENSE](LICENSE) for details.
   title  = {Privacy-Preserving Building Damage Assessment using Differentially Private YOLOv5},
   year   = {2025},
   note   = {GitHub Repository},
-  url    = {https://github.com/<your-username>/disaster-damage-assessment}
+  url    = {https://github.com/oaphyapran365/DP-YOLOv5s-Lightweight-DamageDetection.git}
 }
 ```
 
