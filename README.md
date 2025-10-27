@@ -66,7 +66,7 @@ disaster-damage-assessment/
 ├─ weights/
 │  └─ README.md
 ├─ sample_media/
-   ├─ demo_output.jpg
+   ├─ demo_output.gif
    └─ demo_video_frame.jpg
 
 ```

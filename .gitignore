@@ -36,7 +36,7 @@ results/
 *.mov
 *.mkv
 *.webm
-*.gif
+
 
 # Images (we’ll allow a couple specific demo files below)
 *.jpg
