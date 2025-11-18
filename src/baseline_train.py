@@ -1,8 +1,27 @@
 """
-baseline_train.py
-Train a baseline YOLOv5s model on the building damage dataset (no DP).
+Post-Disaster Damage Detection (YOLOv5s)
 
-This is just a thin wrapper around Ultralytics YOLOv5's built-in train.py,
+Copyright (C) 2025  Honghui Xu, Md Abdullahil Oaphy,
+Kennesaw State University
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+-------------------------------------------------------------------------------
+baseline_train.py
+Train a baseline YOLOv5s model on the building-damage dataset (no DP).
+
+This script is a thin wrapper around Ultralytics YOLOv5's built-in train.py,
 so users can reproduce the baseline checkpoint we compare against in the paper.
 
 Usage:
@@ -15,9 +34,11 @@ Usage:
         --run_name baseline_yolov5s
 
 Notes:
-- We disable wandb by default to avoid external logging.
-- This expects that the YOLOv5 repo is available locally and
-  its train.py can be imported.
+- We disable Weights & Biases (wandb) by default to avoid external logging.
+- This expects that the YOLOv5 repo is available locally and that its
+  train.py module can be imported.
+
+-------------------------------------------------------------------------------
 """
 
 import os, sys, argparse

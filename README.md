@@ -38,7 +38,7 @@ Model is:
 
 | Short detection clip - 1(autoplay) | Short detection clip -2 (autoplay) |
 |-----------------------------|---------------------------------|
-| <img src="sample_media//outx_clip.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/> | <img src="sample_media/Unst2_clip.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/>|
+| <img src="sample_media/outputX1.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/> | <img src="sample_media/outputX2.gif" alt="Damage detection frame" width="400" style="border:1px solid #444; border-radius:6px;"/>|
 
 
 ---
@@ -194,10 +194,21 @@ Ensure all training data comply with relevant data-protection regulations (e.g.,
 ---
 
 
-## 📜 License
 
-Licensed under the **MIT License**.
-See [LICENSE](LICENSE) for details.
+## 📜 License (AGPL-3.0-or-later)
+
+This project is licensed under the **GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)**.  
+You may redistribute and/or modify this software under the terms of the AGPL as published by the Free Software Foundation.
+
+See the full license text in the [`LICENSE`](LICENSE) file.
+
+### 🔔 AGPL Notice
+Under the AGPL license, **if you modify this software and deploy it over a network (e.g., as a web service or API)**,  
+you **must publicly release the complete source code of your modified version**, including all changes,  
+as required by the AGPL-3.0.
+
+For more details, visit: https://www.gnu.org/licenses/agpl-3.0.html
+
 
 ---
 
@@ -205,6 +216,7 @@ See [LICENSE](LICENSE) for details.
 
 * [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5) for the base architecture
 * [Opacus](https://opacus.ai/) for DP integration
+* **IntelliTrust-Lab**
 * **Kennesaw State University (KSU)** for research support
 
 ---
