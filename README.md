@@ -3,10 +3,18 @@
 
 # Disaster Damage Assessment with Privacy-Preserving YOLOv5
 
-This repository presents a **Differential Privacy (DP)**–enhanced YOLOv5 pipeline for **automated building-damage detection** from post-disaster imagery.
-The system classifies buildings into four severity levels — **no damage**, **light damage**, **moderate damage**, and **severe damage** — while ensuring **privacy protection**, **lightweight inference**, and **visual interpretability** for emergency-response applications.
+This repository contains the open-source implementation associated with our peer-reviewed conference paper:
+
+***“Lightweight and Privacy-Enhanced Detection Model on Aerial Imagery for Post-Disaster Building Damage Reconnaissance,” published in the Proceedings of the 59th Hawaii International Conference on System Sciences (HICSS) in 2026.***
+
+The project presents a **Differential Privacy (DP)**–enhanced YOLOv5 pipeline for **automated post-disaster building-damage assessment** from aerial imagery.
+
+The system classifies detected buildings into four damage-severity levels — **no damage**, **light damage**, **moderate damage**, and **severe damage** — while combining **privacy-preserving model training**, **lightweight inference**, and **visual interpretability** for disaster-response and emergency-reconnaissance applications.
+
+The framework is designed for deployment scenarios involving **UAV imagery**, **field devices**, and other **resource-constrained environments** where rapid, secure, and reliable damage assessment is important.
 
 ---
+
 
 ## 🚀 Key Features
 
@@ -219,19 +227,29 @@ For more details, visit: https://www.gnu.org/licenses/agpl-3.0.html
 * **IntelliTrust-Lab**
 * **Kennesaw State University (KSU)** for research support
 
----
+
+```
 
 ## 🧠 Citation
 
+This repository provides the open-source implementation associated with the following peer-reviewed publication:
+
+**Oaphy, Md Abdullahil, Da Hu, Adeel Khalid, and Honghui Xu. 2026. “Lightweight and Privacy-Enhanced Detection Model on Aerial Imagery for Post-Disaster Building Damage Reconnaissance.” In *Proceedings of the 59th Hawaii International Conference on System Sciences*, 7058–7067. University of Hawaii at Manoa. https://doi.org/10.24251/HICSS.2026.837**
+
+If you use the code, methodology, or results from this repository in academic work, please cite the published conference paper:
+
 ```bibtex
-@misc{disasterdp2025,
-  author = {Abdullahil Oaphy, Honghui Xu and collaborators},
-  title  = {Lightweight and Privacy-Enhanced Detection Model on Aerial Imagery for
-Post-Disaster Building Damage Reconnaissance},
-  year   = {2025},
-  note   = {GitHub Repository},
-  url    = {https://github.com/oaphyapran365/DP-YOLOv5s-Lightweight-DamageDetection.git}
+@inproceedings{oaphy2026lightweight,
+  author    = {Md Abdullahil Oaphy and Da Hu and Adeel Khalid and Honghui Xu},
+  title     = {Lightweight and Privacy-Enhanced Detection Model on Aerial Imagery for Post-Disaster Building Damage Reconnaissance},
+  booktitle = {Proceedings of the 59th Hawaii International Conference on System Sciences},
+  pages     = {7058--7067},
+  year      = {2026},
+  publisher = {University of Hawaii at Manoa},
+  doi       = {10.24251/HICSS.2026.837},
+  url       = {https://hdl.handle.net/10125/112242}
 }
+
 ```
 
 ---
