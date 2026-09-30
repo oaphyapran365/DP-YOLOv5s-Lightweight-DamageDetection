@@ -228,7 +228,7 @@ For more details, visit: https://www.gnu.org/licenses/agpl-3.0.html
 * **Kennesaw State University (KSU)** for research support
 
 
-```
+---
 
 ## 🧠 Citation
 
