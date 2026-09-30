@@ -9,7 +9,7 @@ This repository contains the open-source implementation associated with our peer
 
 The project presents a **Differential Privacy (DP)**–enhanced YOLOv5 pipeline for **automated post-disaster building-damage assessment** from aerial imagery.
 
-The system classifies detected buildings into four damage-severity levels — **no damage**, **light damage**, **moderate damage**, and **severe damage** — while combining **privacy-preserving model training**, **lightweight inference**, and **visual interpretability** for disaster-response and emergency-reconnaissance applications.
+The system classifies detected buildings into four damage-severity levels — **No Damage**, **Light Damage**, **Moderate Damage**, and **Severe Damage** — while combining **privacy-preserving model training**, **lightweight inference**, and **visual interpretability** for disaster-response and emergency-reconnaissance applications.
 
 The framework is designed for deployment scenarios involving **UAV imagery**, **field devices**, and other **resource-constrained environments** where rapid, secure, and reliable damage assessment is important.
 
